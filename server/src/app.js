@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://ecommerce-bazar-tau.vercel.app", // Your frontend URL
+    origin: "https://sagor-departmental.vercel.app/", // Your frontend URL
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
   })
 );
